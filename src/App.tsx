@@ -7,9 +7,9 @@ import Icon from "@mui/material/Icon";
 
 const App = () => {
   const [tasks, setTasks] = useState([
-    { id: '1', text: 'Task 1'},
-    { id: '2', text: 'Task 2'},
-    { id: '3', text: 'Task 3'},
+    { id: '1', text: 'Learn React JS'},
+    { id: '2', text: 'Study English'},
+    { id: '3', text: 'Create ToDo List'},
   ]);
 
   let [currentTask, setCurrentTask] = useState('');
@@ -33,7 +33,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <Icon>star</Icon>;
+      <Icon>delete</Icon>;
       <main id="todolist">
         <h1>
           Todo List
