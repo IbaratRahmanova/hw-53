@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'material-icons/iconfont/material-icons.css';
+import Icon from '@mui/material/Icon';
+
+<Icon>star</Icon>;
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
